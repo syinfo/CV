@@ -27,14 +27,14 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: auto;
+   
     background-color:#61D800;     
 }
 
  header{
     display: inline-block;
     text-align: center;
-    width: auto;
+   
 }
 .photo{
     display: inline-block;     
@@ -52,7 +52,7 @@ aside{
     background-color:black;
     color:#61D800;
     text-align: center;
-    width: auto;
+   
 }
 
 aside section p{
@@ -85,7 +85,7 @@ ul{
 main{
     display: flex;
     flex-direction: column;
-    width: auto;
+    
     padding-left: 20px;       
 }
 
@@ -126,7 +126,7 @@ h3 i{
 
 .underline{
     border-top: solid 2px #61D800;
-    width: auto;
+   
 }
    
 .emplacement{
@@ -138,24 +138,13 @@ h3 i{
 .date{
     width: 190px;
 }
-
-h3{
-    width: 400px;     
-}
-
-#CEO{
-    width: 250px;
-    padding-left: 30px;
-}
-
-address{
-    width: 375px;
-    padding-left: 30px;
+aside section{
+    flex: 1;
 }
 
 /*Responsive effects*/
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 320px) { 
+@media (min-width: 200px) { 
     
     .container{
         display: flex;
@@ -163,7 +152,7 @@ address{
 }       
 }
 
-@media (min-width: 320px) {
+@media (min-width: 200px) {
 aside{
     display: flex;
     flex-direction: column;
