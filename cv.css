@@ -14,7 +14,7 @@
         font-family: 'ambleregular', Impact, Helvetica,'Century Gothic Medium','Avenir', Georgia, 'Cambria','calibri', Verdana, sans-serif, Arial;
     }
     body{
-        width: auto;
+      
         margin: 0;   
     }
 .container{
@@ -54,10 +54,13 @@ aside{
     text-align: center;
    
 }
+aside section :last-child{
+    align-self: flex-end;
+}
 
 aside section p{
-   margin-top: 0px;
-   margin-bottom: 0px;
+   margin-top: -2px;
+   margin-bottom: -2px;
     padding: 10px 30px 10px 30px; 
 }
 /* Positionnement de title loisirs et de ses icones */
@@ -128,6 +131,9 @@ h3 i{
     border-top: solid 2px #61D800;
    
 }
+.description{
+    padding: 0px 5px 0px 0px; 
+}
    
 .emplacement{
     display: flex;
@@ -136,7 +142,7 @@ h3 i{
 }
 
 .date{
-    width: 190px;
+    width: 250px;
 }
 aside section{
     flex: 1;
