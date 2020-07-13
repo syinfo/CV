@@ -54,8 +54,9 @@ aside{
     text-align: center;
    
 }
-aside section :last-child{
-    align-self: flex-end;
+
+.propos{
+    flex: 1;
 }
 
 aside section p{
@@ -144,9 +145,8 @@ h3 i{
 .date{
     width: 250px;
 }
-aside section{
-    flex: 1;
-}
+
+
 
 /*Responsive effects*/
 /*Small devices (landscape phones, 576px and up)*/
