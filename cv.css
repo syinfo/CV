@@ -100,16 +100,17 @@ main{
   height: 158px;
   margin-top: 20px;
 }
+.name{
+    width: 177px;
+    height: 62px;
+    text-align: left;
+}
 .strong{
     margin: 0px;
 }
 h1{
-    margin: 2px;
+    margin: 2px 0px;
 }
-article h3{
-    margin: 3px;
-}
-
 
 #name{   
     color: #61D800;
@@ -141,41 +142,61 @@ h3 i{
     align-items: baseline;
     justify-content: flex-start;
 }
+.description{
+   
+    width: 525px;
+    height: 173;
+    text-align: left;
+    padding: 10px;
+}
 
+.fa-graduation-cap{
+    color:#61D800;
+     font-size: 25px;
+}
+.fa-briefcase{
+    color:#61D800; 
+    font-size: 25px;
+}
+.fa-pencil{
+    color:#61D800;
+    font-size: 25px;
+}
+.fa-dot-circle{
+    color:#61D800; 
+    font-size: 10px;
+}
+.fa-circle{
+    color:#61D800;
+     font-size: 6px;
+     margin: 0 2px;
+}
 .date{
     width: 250px;
 }
 
-
-
 /*Responsive effects*/
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 200px) { 
-    
     .container{
         display: flex;
         flex-direction: column;
-}       
-}
-
-@media (min-width: 200px) {
+} 
 aside{
     display: flex;
     flex-direction: column;
+}      
 }
-} 
- 
+
 @media (min-width: 576px){
     .container{
         display: flex;
         flex-direction: column;
  }
- }
-@media (min-width: 576px){
  aside{
     display: flex;
     flex-direction: column;
- }
+}
 }
  /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px){
@@ -188,16 +209,14 @@ aside{
 @media (min-width: 992px) {
     .container{
       display: flex;
-      flex-direction: row;
-     
+      flex-direction: row; 
     } 
    }
    /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 .container{
   display: flex;
-  flex-direction: row;
-  
+  flex-direction: row; 
 } 
 }
 
